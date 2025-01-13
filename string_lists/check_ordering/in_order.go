@@ -4,7 +4,12 @@ package check_ordering
 // Überprüft, ob die beiden Strings in der Liste in der gegebenen Reihenfolge vorkommen.
 // Gibt `true` zurück, wenn das der Fall ist, ansonsten `false`.
 func CheckOrdering(strings []string, first, second string) bool {
-	// TODO
+
+	if strings[1] == first {
+		//if strings[len(strings)-1] == second {
+		//	return true
+		//}
+	}
 	return false
 }
 
